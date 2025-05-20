@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "Fraunces";
+    src: url(fonts/Fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(30, 38%, 92%);
+    height: 90vh;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    height: 400px;
+    font-family: "Montserrat";
+}
+
+.Informacoes{
+    background-color: white;
+    width: 290px;
+    height: 435px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: hsl(228, 12%, 48%);
+}
+
+#Titulo{
+    margin-top: 35px;
+    font-size: 14px;
+}
+
+#NomeProduto{
+    font-weight: 700;
+    color: black;
+    font-family: "Fraunces";
+}
+
+.Preco{
+    display: flex;
+    justify-content: start;
+    font-family: "Fraunces";
+    font-weight: 700;
+}
+
+#PrecoNovo{
+    font-size: 35px;
+    text-align: center;
+    color: hsl(158, 36%, 37%);
+    margin: 20px;
+    margin-left: 0px;
+}
+
+#PrecoAntigo{
+    font-size: 17px;
+    text-decoration: line-through;
+}
+
+.AdicionarAoCarrinho{
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+
+    text-align: center;
+
+    padding: 8px;
+    height: 42px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 4px;
+    cursor: pointer;
+}
