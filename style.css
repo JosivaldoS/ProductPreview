@@ -62,7 +62,7 @@ main{
 
     
     color: hsl(228, 12%, 48%);
-    font-size: 2vh;
+    font-size: 1.5vh;
 
     @media (min-width: 680px ) {
         height: 435px;
@@ -83,7 +83,7 @@ main{
 
 #Titulo{
     margin-top: 35px;
-    font-size: 14px;
+    font-size: 1.5vh;
 }
 
 #NomeProduto{
@@ -100,7 +100,7 @@ main{
 }
 
 #PrecoNovo{
-    font-size: 35px;
+    font-size: 2vw;
     text-align: center;
     color: hsl(158, 36%, 37%);
     margin: 20px;
@@ -108,7 +108,7 @@ main{
 }
 
 #PrecoAntigo{
-    font-size: 17px;
+    font-size: 1.5vw;
     text-decoration: line-through;
 }
 
