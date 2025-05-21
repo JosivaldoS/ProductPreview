@@ -9,7 +9,12 @@
 <body>
     <main>
         <div>
-            <img src="images/image-product-desktop.jpg" alt="Imagem de um perfume" style="width: 290px; border-top-left-radius: 20px; border-bottom-left-radius: 20px;">
+            <picture>
+                <source media="(min-width: 680px)" srcset="images/image-product-desktop.jpg"/>
+                <source media="(max-width: 679px)" srcset="images/image-product-mobile.jpg"/>
+                <img src="images/image-product-desktop.jpg" alt="Imagem de um perfume">
+            </picture>
+            
         </div>
         <div class="Informacoes">
             
